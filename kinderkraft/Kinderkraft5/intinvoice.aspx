@@ -162,6 +162,7 @@
           <div class="step_one">
               <img src="images/KK_billing.jpg" alt="" width="600" height="50" /><br />
           </div>
+       <p style="font-size:small;color:blue">If you are located in Canada, please call our Canadian office at 1-800-665-7597 ext 51832</p>
           <p class="req_field_val">*Required Fields</p> 
           <div class="invoice">
             <table width="700" border="0" cellspacing="1" cellpadding="2">
@@ -178,10 +179,10 @@
                             DataTextField="name" DataValueField="abbrev" Width="173px" 
                             AutoPostBack="True"   SelectedValue='<%# Bind("country") %>' 
                             >
-                            <asp:ListItem Value="US">UNITED STATES</asp:ListItem>
                         </asp:DropDownList>
                         <div class="req_field_val">
                             <asp:CustomValidator ID="cvcountryins" runat="server" ErrorMessage="Country Not International"  Enabled="False"></asp:CustomValidator>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11113" runat="server" ControlToValidate="ddlcountryins" ErrorMessage="Country Required" ValidationGroup="g2"></asp:RequiredFieldValidator>
                         </div>
                     </td>
                 </tr>
@@ -326,9 +327,9 @@
                             DataTextField="name" DataValueField="abbrev" Width="173px" 
                           AutoPostBack="True" SelectedValue='<%# Bind("scountry") %>' 
                          >
-                        <asp:ListItem Value="US">UNITED STATES</asp:ListItem>
                         </asp:DropDownList> <div class="req_field_val">
                             <asp:CustomValidator ID="cvcountryinsshp" runat="server" ErrorMessage="Country Not International" OnServerValidate="cvcountryinsshp_ServerValidate"></asp:CustomValidator>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator11114" runat="server" ControlToValidate="ddlcountryshpins" Display="Dynamic" ErrorMessage="Country Required" ValidationGroup="g2"></asp:RequiredFieldValidator>
                         </div></td>
               </tr>
               <tr>
@@ -425,6 +426,7 @@
 <EditItemTemplate>
           <div class="step_one">
               <img src="images/KK_billing.jpg" alt="" width="600" height="50" /></div>
+     <p style="font-size:small;color:blue">If you are located in Canada, please call our Canadian office at 1-800-665-7597 ext 51832</p>
               <p class="req_field_val">*Required Fields</p> 
            <div class="invoice">
             <table width="700" border="0" cellspacing="1" cellpadding="2">
@@ -445,6 +447,7 @@
                         </asp:DropDownList>
                     <div class="req_field_val"> 
                      <asp:CustomValidator ID="cvcountry" runat="server" ErrorMessage="Country Not International"  Enabled="False"></asp:CustomValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator11115" runat="server" ControlToValidate="ddlcountryedt" Display="Dynamic" ErrorMessage="Country Required" ValidationGroup="g2"></asp:RequiredFieldValidator>
                      </div>
                         </div></td>
               </tr>
@@ -575,6 +578,8 @@
                               
                      <asp:CustomValidator ID="cvcountryshp" runat="server" ErrorMessage="Country Not International" OnServerValidate="cvcountryshp_ServerValidate"></asp:CustomValidator>
                     
+                              <asp:RequiredFieldValidator ID="RequiredFieldValidator11116" runat="server" ControlToValidate="ddlcountryshpedt" Display="Dynamic" ErrorMessage="Country Required" ValidationGroup="g2"></asp:RequiredFieldValidator>
+                    
                           </div>
                       </td>
                   </tr>
@@ -682,7 +687,7 @@
         ConnectionString="<%$ ConnectionStrings:KK5 %>" 
         ProviderName="<%$ ConnectionStrings:KK5.ProviderName %>" 
         
-        SelectCommand="SELECT upper(name) as name, abbrev FROM country ORDER BY name"></asp:SqlDataSource>
+        SelectCommand="SELECT upper(name) AS name, abbrev FROM country WHERE (upper(name) &lt;&gt; 'CANADA') OR (upper(name) &lt;&gt; 'UNITED STATES') ORDER BY name"></asp:SqlDataSource>
  <asp:SqlDataSource ID="dsstates" runat="server" 
         ConnectionString="<%$ ConnectionStrings:KK5 %>" 
         ProviderName="<%$ ConnectionStrings:KK5.ProviderName %>" 
@@ -758,7 +763,7 @@
 <!-- InstanceEndEditable -->
 
 <div id="footer">
-  		<p><a href="returns.aspx">Shipping Rates and Returns</a> &nbsp; &#124; &nbsp;  <asp:LinkButton ID="ordstatus" runat="server"  OnClick="ordstatus_Click">Order History</asp:LinkButton> &nbsp; &#124; &nbsp; 
+  		<p><a href="returns.aspx">Shipping Rates and ReturnsnkButton ID="ordstatus" runat="server"  OnClick="ordstatus_Click">Order History</asp:LinkButton> &nbsp; &#124; &nbsp; 
           <a href="ChangePassword.aspx">Change Password/User Name</a> &nbsp;  &#124; &nbsp;
           <a href="http://www.jostenskinderkraft.com/contact.html"> Contact Us</a> &nbsp; &#124; &nbsp; 
           <a href="http://www.jostenskinderkraft.com/kinderkraft_home.html">Home</a></p>

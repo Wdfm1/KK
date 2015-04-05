@@ -200,6 +200,9 @@
 
   <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
+    <div style="padding: 2px">
+    <span class="pkg_order_instr"> *If you are located in Canada, please call our Canadian office at 1-800-665-7597 ext 51832</span>
+     </div>  
 <div class="invoice">
   
  
