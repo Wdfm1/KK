@@ -1,0 +1,43 @@
+Response Code	Authorization Code	Address Verification Status	Transaction ID	Submit Date/Time	Card Number	Expiration Date	Invoice Number	Invoice Description	Total Amount	Method	Action Code	Customer ID	Customer First Name	Customer Last Name	Company	Address	City	State	ZIP	Country	Phone	Fax	Email	Ship-To First Name	Ship-To Last Name	Ship-To Company	Ship-To Address	Ship-To City	Ship-To State	Ship-To ZIP	Ship-To Country	L2 - Tax	L2 - Duty	L2 - Freight	L2 - Tax Exempt	L2 - Purchase Order Number	Routing Number	Bank Account Number	Order Number	Available Card Balance	Approved Amount
+1	000615	P	5070226228	08-Mar-2013 01:06:19 PM MST	XXXX9189	XXXX			352.12	V	EXPIRED		Lori	Barbe																		0.00	0.00	0.00	No						
+1	081514	P	5081664070	13-Mar-2013 12:15:36 PM MDT	XXXX6324	XXXX			211.65	V	AUTH_ONLY		Rebecca	Jean-Pierre																		0.00	0.00	0.00	No						
+1	092987	P	5093426546	18-Mar-2013 10:56:42 AM MDT	XXXX1918	XXXX			230.53	V	AUTH_ONLY		Laura	Hoggard																		0.00	0.00	0.00	No						
+1	007739	P	5093490443	18-Mar-2013 11:13:58 AM MDT	XXXX1918	XXXX			108.83	V	AUTH_ONLY		Laura	Hoggard																		0.00	0.00	0.00	No						
+1	618131	P	5094348057	18-Mar-2013 03:13:51 PM MDT	XXXX9687	XXXX			39.01	V	AUTH_ONLY		Calvary	Baptist Church																		0.00	0.00	0.00	No						
+1	770190	P	5111976875	25-Mar-2013 04:40:14 PM MDT	XXXX2219	XXXX			36.61	M	AUTH_ONLY		Evelyn	Saucer																		0.00	0.00	0.00	No						
+1	08491Z	P	5112112866	25-Mar-2013 05:39:48 PM MDT	XXXX9735	XXXX			863.59	M	AUTH_ONLY		Deborah	Aiwohi																		0.00	0.00	0.00	No						
+1	71833G	P	5116016819	27-Mar-2013 09:07:18 AM MDT	XXXX3048	XXXX			12.19	V	AUTH_ONLY		Robin	McDonald																		0.00	0.00	0.00	No						
+1	027362	P	5116091617	27-Mar-2013 09:32:18 AM MDT	XXXX2296	XXXX			272.75	V	AUTH_ONLY		Raina	Newman																		0.00	0.00	0.00	No						
+1	00986G	P	5118914020	28-Mar-2013 09:50:09 AM MDT	XXXX1525	XXXX			449.67	V	AUTH_ONLY		Susan	Miner																		0.00	0.00	0.00	No						
+1	32420G	P	5118924283	28-Mar-2013 09:53:24 AM MDT	XXXX1525	XXXX			538.75	V	AUTH_ONLY		Susan	Miner																		0.00	0.00	0.00	No						
+1	980005	P	5131434024	02-Apr-2013 09:55:08 AM MDT	XXXX2165	XXXX			337.20	V	AUTH_ONLY		Faith Lutheran	Day School																		0.00	0.00	0.00	No						
+1	551660	P	5131830272	02-Apr-2013 11:46:51 AM MDT	XXXX4789	XXXX			231.13	V	AUTH_ONLY		Jennifer	Herrmann																		0.00	0.00	0.00	No						
+1	412072	P	5132188354	02-Apr-2013 01:27:05 PM MDT	XXXX9663	XXXX			436.26	V	AUTH_ONLY		Shawn	Kimble																		0.00	0.00	0.00	No						
+1	076610	P	5140067453	05-Apr-2013 08:11:36 AM MDT	XXXX9841	XXXX			49.75	V	AUTH_ONLY		Christina	Hardy																		0.00	0.00	0.00	No						
+1	058705	P	5140521030	05-Apr-2013 10:05:28 AM MDT	XXXX3986	XXXX			207.50	V	AUTH_ONLY		Durant	Martin III																		0.00	0.00	0.00	No						
+1	18250P	P	5141347617	05-Apr-2013 01:38:46 PM MDT	XXXX4023	XXXX			91.26	M	AUTH_ONLY		Carla	McKissic																		0.00	0.00	0.00	No						
+1	00585Z	P	5141690199	05-Apr-2013 03:18:35 PM MDT	XXXX1139	XXXX			214.61	M	AUTH_ONLY		Walter	Baines																		0.00	0.00	0.00	No						
+1		P	5141808719	05-Apr-2013 04:01:21 PM MDT	XXXX1381	XXXX			0.00	V	VOID		Anna	Chief Eagle																		0.00	0.00	0.00	No						
+1	92930P	P	5141816057	05-Apr-2013 04:04:10 PM MDT	XXXX6293	XXXX			478.10	M	PRIOR_AUTH_CAPTURE		Steven	Blaser																		0.00	0.00	0.00	No						
+1	321809	P	5141818092	05-Apr-2013 04:05:01 PM MDT	XXXX1381	XXXX			29.59	V	AUTH_ONLY		Anna	Chief Eagle																		0.00	0.00	0.00	No						
+1	208178	P	5142024937	05-Apr-2013 05:43:10 PM MDT	XXXX1017	XXXX			130.31	A	AUTH_ONLY		Beckie	Chase																		0.00	0.00	0.00	No						
+1	014613	P	5142240631	05-Apr-2013 08:07:14 PM MDT	XXXX3517	XXXX			220.86	V	AUTH_ONLY		William	Estrella, Jr.																		0.00	0.00	0.00	No						
+1	434846	P	5142251135	05-Apr-2013 08:15:54 PM MDT	XXXX4664	XXXX			118.40	V	AUTH_ONLY		Jennifer	Lubarsky																		0.00	0.00	0.00	No						
+1	004029	P	5142291966	05-Apr-2013 08:54:18 PM MDT	XXXX4006	XXXX			34.44	V	AUTH_ONLY		Lee	Sutton																		0.00	0.00	0.00	No						
+1	081710	P	5142866631	06-Apr-2013 08:17:08 AM MDT	XXXX0280	XXXX			307.07	V	AUTH_ONLY		REENA	SIMS																		0.00	0.00	0.00	No						
+1	096943	P	5143577564	06-Apr-2013 03:06:37 PM MDT	XXXX7716	XXXX			29.65	V	AUTH_ONLY		Andrew	Jackson																		0.00	0.00	0.00	No						
+1	033347	P	5143802949	06-Apr-2013 05:34:44 PM MDT	XXXX0522	XXXX			45.18	V	AUTH_ONLY		Cascille	Courtney																		0.00	0.00	0.00	No						
+1	09873B	P	5144048297	06-Apr-2013 09:13:28 PM MDT	XXXX2455	XXXX			151.34	M	AUTH_ONLY		melissa	graber																		0.00	0.00	0.00	No						
+1	004429	P	5144684359	07-Apr-2013 10:50:13 AM MDT	XXXX5178	XXXX			201.66	V	AUTH_ONLY		Lisa	Bocchino																		0.00	0.00	0.00	No						
+1		P	5144807017	07-Apr-2013 12:10:54 PM MDT	XXXX2500	XXXX			0.00	V	VOID		Dorothy	Andrews																		0.00	0.00	0.00	No						
+1		P	5144811931	07-Apr-2013 12:14:15 PM MDT	XXXX2500	XXXX			0.00	V	VOID		Dorothy	Andrews																		0.00	0.00	0.00	No						
+1	517509	P	5144848518	07-Apr-2013 12:39:39 PM MDT	XXXX4193	XXXX			61.00	M	AUTH_ONLY		JUAN	ARAGON																		0.00	0.00	0.00	No						
+1	322570	P	5145590195	07-Apr-2013 09:11:56 PM MDT	XXXX2209	XXXX			46.44	V	AUTH_ONLY		William	Watson																		0.00	0.00	0.00	No						
+1	00453C	P	5145629083	07-Apr-2013 09:53:47 PM MDT	XXXX1891	XXXX			38.64	V	AUTH_ONLY		Iliana	Cordova																		0.00	0.00	0.00	No						
+1	09732C	P	5145631843	07-Apr-2013 09:56:56 PM MDT	XXXX1891	XXXX			38.64	V	AUTH_ONLY		Iliana	Cordova																		0.00	0.00	0.00	No						
+1	004816	P	5146389660	08-Apr-2013 08:35:36 AM MDT	XXXX0600	XXXX			38.64	M	AUTH_ONLY		Rita	Parker																		0.00	0.00	0.00	No						
+1	00365Z	P	5146416445	08-Apr-2013 08:43:44 AM MDT	XXXX8299	XXXX			702.78	M	AUTH_ONLY		Robin	Weir																		0.00	0.00	0.00	No						
+1	321957	P	5146421222	08-Apr-2013 08:45:10 AM MDT	XXXX3855	XXXX			32.71	V	AUTH_ONLY		Bessie	LeBeau																		0.00	0.00	0.00	No						
+1	03327G	P	5146441042	08-Apr-2013 08:51:10 AM MDT	XXXX5002	XXXX			270.83	V	AUTH_ONLY		Sheila E.	Bagwell																		0.00	0.00	0.00	No						
+1	017519	P	5146469684	08-Apr-2013 08:59:23 AM MDT	XXXX5467	XXXX			501.83	V	AUTH_ONLY		TAG	ENRICHMENT																		0.00	0.00	0.00	No						
+1	002243	P	5146555847	08-Apr-2013 09:22:43 AM MDT	XXXX2500	XXXX	1913		89.20	V	AUTH_ONLY		Gethsemane	U.M.																		0.00	0.00	0.00	No						
