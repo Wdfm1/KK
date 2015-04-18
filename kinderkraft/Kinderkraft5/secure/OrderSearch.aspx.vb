@@ -1604,4 +1604,6 @@ Partial Class OrderSearch
 		FormView2.DataBind()
 		DoTotal(False)
 	End Sub
+
+    
 End Class

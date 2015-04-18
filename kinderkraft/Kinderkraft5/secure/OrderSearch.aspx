@@ -379,7 +379,7 @@
      </div>
    
      <div style="float: right; clip: rect(auto, auto, auto, auto);">  <asp:Button ID="Button3" runat="server" Text="Print Summary"  
-            Width="114px"  /> 
+            Width="114px" Visible="False"  /> 
          <br />
      </div>
     
