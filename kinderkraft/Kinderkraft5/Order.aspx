@@ -366,7 +366,7 @@
  <div style="float: left">
          </div><div style="float: right">  
              <asp:Button ID="Button2" runat="server" Text="Print Summary"  
-            Width="108px"  /> </div></div> 
+            Width="108px" Visible="False"  /> </div></div> 
 
 	&nbsp;&nbsp;&nbsp;<asp:GridView ID="gv1" runat="server" Height="16px" Width="648px" 
 			AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" 
